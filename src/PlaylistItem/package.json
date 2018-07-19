@@ -1,0 +1,6 @@
+{
+    "name": "playlist-item",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./PlaylistItem.js"
+}

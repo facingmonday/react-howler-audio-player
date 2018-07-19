@@ -1,0 +1,6 @@
+{
+    "name": "previous-button",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./PreviousButton.js"
+}

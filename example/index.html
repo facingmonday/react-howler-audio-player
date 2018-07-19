@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>React Howler Audio Player</title>
+        <script type="text/javascript" src="dist/bundle.js"></script>
+    </head>
+    <body>
+        <div id="app"></div>
+        <script>
+            ReactAudio.init('app', {
+                playlist: [{
+                    title: "If There's a Bar up in Heaven",
+                    artist: "Mark Leach",
+                    src: ["audio/barinheaven.mp3", "audio/barinheaven.m4a"]
+                }]
+            });
+        </script>
+    </body>
+</html>
